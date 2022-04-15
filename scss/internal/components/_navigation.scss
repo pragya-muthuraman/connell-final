@@ -1,0 +1,406 @@
+.primary-navbar{
+  background-color: #232323;
+  height: 42px;
+}
+.contact{
+  display: flex;
+  gap: 32px;
+}
+.contact p{
+  @include regular();
+  font-size: 12px;
+  color: white;
+}
+.contact img{
+  background-color:white;
+  border-radius: 50px;
+  padding: 5px;
+  margin-top: -4px;
+  height: 26px;
+  width: 26px;
+}
+.contact-btn{
+  background-color: transparent;
+  border-color: transparent;
+  padding: unset;
+}
+.contact-btn:hover, .contact-btn:active, .contact-btn:focus{
+  border-color:transparent!important;
+background-color: transparent!important;
+}
+.primary-contact{
+  background-color: #002060;
+  max-width: 904px;
+}
+@media (min-width: 576px){
+  .primary-dialog {
+    max-width: 900px;
+    margin: 1.75rem auto;
+}
+}
+.close-btn_modal{
+  width:23px!important;
+}
+.modal-body{
+  padding: unset;
+}
+.contact-us__content{
+  @include medium();
+  font-size:22px;
+  color: white;
+  margin-top: 40px;
+}
+.contact-phone{
+  color: white;
+  font-size: 12px;
+  @include regular();
+}
+.btn-close{
+  background: unset;
+}
+.modal-content{
+  padding: 10px;
+}
+.low-opac__contactus{
+  margin-left: -10px;
+}
+@media screen and(max-width:800px) {
+.low-opac__contactus{
+  display: none;
+}
+.contactus-right{
+  padding-left: 10px;
+}
+}
+
+.double-phone{
+  display: flex;
+  gap: 65px;
+  margin-top: 18px;
+}
+.double-mail__social{
+  display: flex;
+  gap: 65px;
+}
+.icon-two{
+  width: 28px!important;
+}
+.utility-call{
+  background-color: transparent!important;
+}
+.contact-phone{
+  display: flex;
+  gap: 6px;
+  margin-top: 17px;
+}
+.contact-mail{
+  display: flex;
+  gap:6px;
+  margin-top: 17px;
+}
+.user-connell{
+  display: flex;
+  gap:32px;
+}
+.user-connell a{
+  text-decoration: none;
+  @include regular();
+  font-size: 12px;
+  color: white;
+  margin-top: 17px;
+}
+.connell-navbar-one{
+  display: flex;
+  justify-content: space-between;
+}
+.social-icons-nav img{
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 17px;
+  padding: 4px;
+}
+.social-icons-nav{
+display: flex;
+gap: 12px;
+}
+.registerlogin{
+word-spacing: 5px;
+}
+@media screen and(max-width:426px) {
+  .connell-navbar-one{
+    flex-direction: column;
+  }
+  .primary-navbar{
+    height: 60px;
+  }
+  .contact{
+    justify-content: center;
+  }
+  .user-connell{
+    justify-content: center;
+  }
+}
+// navigation-two
+
+
+.navbar-brand {
+  @include bold();
+  font-size: 14px;
+}
+.nav-bar_top {
+  li {
+    a {
+      margin-left: 20px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .nav-item {
+    display: block !important;
+  }
+}
+
+.navbar-custom {
+  height: 29px;
+}
+.navbar-light .navbar-toggler {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.offcanvas-end {
+  width: 250px;
+}
+
+.navbar #nav > .active > a {
+  color: white;
+  @include medium();
+  text-shadow: 0 0 0.65px white, 0 0 0.65px white;
+  font-size: 14px;
+  .nav-indicator{
+    visibility: visible;
+  }
+}
+.fixed-top{
+top: 100px;
+}  
+.nav-link{
+color: white;
+font-size: 14px;
+}
+.nav-indicator{
+vertical-align: baseline;
+margin-right: 2px;
+visibility: hidden;
+}
+.btn-secondary {
+color: #fff;
+background-color:transparent;
+border-color: transparent;
+}
+.btn-secondary:hover {
+color: #fff;
+background-color: transparent; 
+border-color: transparent; 
+}
+.btn:focus {
+outline: 0;
+box-shadow:unset;
+}
+.btn-secondary:focus {
+color: #fff;
+background-color: transparent;
+border-color: transparent;
+box-shadow: unset;
+}
+.nav-item:hover{
+.nav-indicator{
+  visibility: visible;
+}
+}
+.fixed-top{
+position: fixed;
+}
+@media screen and(max-width:500px) {
+.fixed-top{
+  top: 52px;
+}
+}
+.offcanvas {
+position: fixed;
+bottom: 0;
+z-index: 1045;
+display: flex;
+flex-direction: column;
+max-width: 100%;
+visibility: hidden;
+background-color: #002060;
+background-clip: padding-box;
+outline: 0;
+transition: transform 0.3s ease-in-out;
+}
+.utility{
+color: #BDBDBD!important;
+}
+.dropbtn {
+background-color: transparent;
+color: rgb(255, 255, 255);
+
+font-size: 14px;
+border: none;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+.dropdown__two{
+position: relative;
+display: inline-block;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color:white;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+.dropdown-content a {
+color:#002060;
+font-size: 13px;
+padding: 10px 16px;
+text-decoration: none;
+display: block;
+}
+.dropdown-content a:hover {
+background-color: white;
+color: #002060!important;
+text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: transparent;}
+
+.dropdown__two:hover .dropdown-content {display: block;}
+
+.dropdown__two:hover .dropbtn {background-color: transparent;}
+
+.dropdown-content-two{
+display: none;
+}
+.dropdown__two:hover{
+.dropdown-content-two{
+  display: block;
+}
+}
+.dropdown img{
+margin-left: -10px;
+}
+.navbar-toggler:focus{
+border: unset;
+box-shadow: unset;
+border-color: unset;
+}
+.tirtiary-drp{
+display: flex;
+gap: 50px;
+}
+.canada-drpdown{
+margin-top: 17px;
+}
+// dropdown menu
+
+@media all and (min-width: 992px) {
+.dropdown-menu li{ position: relative; 	}
+.nav-item .submenu{ 
+  display: none;
+  position: absolute;
+  // left:100%; top:-7px;
+}
+
+.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+.dropdown-menu > li:hover > .submenu{ display: block; }
+}	
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+.dropdown-menu .dropdown-menu{
+    margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
+}
+}	
+/* ============ small devices .end// ============ */
+
+.dropdown-menu[data-bs-popper] {
+top: 100%;
+ left: unset;
+margin-top: 0.125rem;
+}
+.submenu{
+margin-left: 160px;
+margin-top: -10px;
+}
+.dropdown-menu:hover, .dropdown-menu:active{
+background-color: white;
+color: black;
+}
+.nav-bar_top li a:hover {
+color: #002060;
+}
+.dropdown-item{
+font-size: 14px;
+}
+.nav-link:focus {
+color: white;
+}
+.dropdown-item:hover, .dropdown-item:active, .dropdown-item:focus{
+background-color: transparent;
+color: #002060;
+}
+.nav-bar_top li a:hover {
+  color: white;
+  text-shadow: 0 0 0.65px white, 0 0 0.65px white, 0 0 0.65px white;
+}
+.dropdown-item{
+color: black;
+}
+.canada-drop:hover{
+font-weight: bold!important;
+color: #002060!important;
+}
+
+.fixed-top.scrolled {
+background-color: #fff !important;
+transition: background-color 200ms linear;
+}
+
+// .primary-nav-contain{
+//   background-color: transparent;
+// }
+
+.eligibility-construction{
+  font-size: 23px;
+  color: white;
+  margin: auto 0px;
+}
+.calculate-btn{
+  background-color: transparent;
+  border-color: transparent;
+}
+.calculate-btn:active, .calculate-btn:hover, .calculate-btn:focus{
+  background-color: transparent;
+  border-color: transparent!important;
+  box-shadow: unset!important;
+}
+.dropdown-item:hover{
+  color: #002060!important;
+}

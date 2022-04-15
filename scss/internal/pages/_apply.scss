@@ -1,0 +1,120 @@
+.apply-box{
+    background-color: #FBFBFB;
+    position: absolute;
+    top: -30px;
+    right: -37px;
+}
+.apply-img{
+    position: relative;
+    background-color: #002060;
+    width: fit-content;
+}
+.apply-box p{
+    font-size: 36px;
+    @include light();
+    color: #002060;
+    padding-top: 73px;
+    padding-bottom: 86px;
+    padding-left: 39px;
+    padding-right:49px;
+    line-height: 34px;
+}
+.apply-box p span{
+    @include medium();
+}
+.steps h2{
+    @include extralight();
+    font-size: 48px;
+    margin-bottom: 8px;
+    color: #002060;
+}
+.steps p{
+    @include regular();
+    color: black;
+    font-size: 16px;
+}
+.apply-steps{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 75px;
+    column-gap: 33px;
+    margin-top: 20px;
+    margin-left: 53px;
+}
+// @media screen and(max-width:768px) {
+//     .apply-steps{
+//         grid-template-columns: 1fr 1fr;
+//     }
+// }
+.check{
+    padding: 11px 39px;
+    margin-top: 40px;
+    color: #002060;
+    @include regular();
+    font-size: 14px;
+    border-color: #002060;
+    background-color: transparent;
+    border-radius: 0;
+    margin-left: 53px;
+}
+.check:hover{
+    color: white!important;
+    background-color: #002060!important;
+}
+.btn-primary:hover {
+    color: #002060;
+    background-color: transparent;
+    border-color: #002060;
+}
+.btn:focus{
+    box-sizing: none;
+}
+.btn-primary:focus{
+    box-shadow: none;
+}
+.steps:hover{
+    transition: all 0.3s ease-in-out;
+    transform: translate3d(1px, -10px, 1px);
+}
+.who-cn-apply{
+    margin-bottom: 120px;
+}
+@media screen and(max-width:500px) {
+    .apply-image{
+        width: 300px;
+    } 
+    .steps h2{
+        font-size: 28px;
+    }
+    .apply-steps{
+        column-gap: 47px;
+    }
+    .steps p{
+        font-size: 14px;
+    }
+    .right-apply{
+        text-align: center;
+    }
+}
+@media screen and(max-width:769px) {
+    .left-apply-img{
+        text-align: -webkit-center;
+    }
+    .right-apply{
+        text-align: center;
+    }
+}
+.small-line__two{
+    width:52px!important;
+}
+@media screen and(max-width:600px) {
+    .apply-steps{
+        margin-left: 0px;
+    }
+    .check{
+        margin-left: 0px;
+    }
+}
+.button-for__check{
+    margin-left: 45px;
+}

@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'murecho-bold'; 
+    src: url('./../../../fonts/Murecho-Bold.woff2') format("woff2"),
+    url('./../../../fonts/Murecho-Bold.woff') format("woff");
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'murecho-regular'; 
+    src: url('./../../../fonts/Murecho-Regular.woff2') format("woff2"),
+    url('./../../../fonts/Murecho-Regular.woff') format("woff");
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'murecho-light';
+    src: url('./../../../fonts/Murecho-Light.woff2') format("woff2"),
+    url('./../../../fonts/Murecho-Light.woff') format("woff");
+    font-weight:300;
+}
+@font-face{
+    font-family: 'murecho-extralight';
+    src: url('./../../../fonts/Murecho-ExtraLight.woff2') format("woff2"),
+    url('./../../../fonts/Murecho-ExtraLight.woff') format("woff");
+    font-weight:300;
+}
+@font-face {
+    font-family: 'murecho-medium';
+    src: url('./../../../fonts/Murecho-Medium.woff2')format("woff2"),
+    url('./../../../fonts/Murecho-Medium.woff') format("woff");
+    font-weight:500;
+}
+@font-face {
+    font-family: 'murecho-semibold';
+    src: url('./../../../fonts/Murecho-SemiBold.woff2')format("wofff2"),
+    url('./../../../fonts/Murecho-SemiBold.woff')format("woff");
+    font-weight: 700;
+}
+@mixin semi-bold{
+    font-family: 'murecho-semibold';
+    font-weight: 600;
+}
+
+@mixin bold {
+    font-family: 'murecho-bold'; 
+    font-weight: 700;
+}
+
+@mixin regular{
+    font-family:'murecho-regular';
+    font-weight: 400;
+}
+@mixin light{
+    font-family: 'murecho-light';
+    font-weight: 300;
+}
+@mixin extralight{
+    font-family: 'murecho-extralight';
+    font-weight: 200;
+}
+@mixin medium{
+    font-family:'murecho-medium';
+    font-weight: 500;
+}

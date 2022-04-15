@@ -1,0 +1,34 @@
+.investor-yellow{
+    margin-left: 93px!important;
+}
+.new-life-left{
+    // margin-top: 70px;
+}
+.dark-black{
+@include medium();
+color: black!important;
+}
+.medium-blue{
+    @include medium();
+    font-size: 14px;
+    color: #002060;
+}
+.bold-black{
+    @include medium();
+    font-size: 14px;
+    color: black;
+    line-height: 20px;
+}
+.closed-program{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 120px;
+}
+@media screen and(max-width:500px) {
+    .closed-program{
+        flex-wrap: wrap;
+    }
+}
+.startup-reasons{
+    margin-top: 80px;
+}

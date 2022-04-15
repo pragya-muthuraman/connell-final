@@ -1,0 +1,27 @@
+.overseas{
+    display: flex;
+    gap: 42px;
+    margin-bottom: 80px;
+}
+@media screen and(max-width:500px) {
+    .overseas{
+        flex-wrap: wrap;
+    }
+}
+.canada{
+    display: flex;
+}
+.immigiration-how_can_i{
+    margin-bottom: 80px;
+}
+.elig-immig{
+    margin-bottom: 80px;
+}
+.immig-number-head{
+    @include extralight();
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+.get-evaluated{
+    margin-bottom: 80px;
+}

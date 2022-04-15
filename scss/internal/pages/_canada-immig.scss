@@ -1,0 +1,98 @@
+.can-immg-img{
+    width:306px;
+}
+.row-new-life{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 80px;
+}
+@media screen and(max-width:500px) {
+    .row-new-life{
+        flex-wrap: wrap;
+    }
+    .process{
+        flex-wrap: wrap;
+    }
+    .whymigrate{
+        flex-wrap: wrap;
+    }
+}
+.one-caimmg-head {
+    font-family: "murecho-semibold";
+    font-weight: 600;
+    font-size: 14px;
+    color: #002060;
+     margin-bottom: 45px; 
+}
+.new-life-right{
+    max-width: 299px;
+}
+.process{
+    display: flex;
+    gap: 81px;
+    margin-bottom: 80px;
+}
+.process-subhead{
+    @include medium();
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+.process-links li{
+list-style-type: none;
+margin-bottom: 1px;
+}
+.process-links a{
+    color: #002060;
+}
+.process-links{
+    margin-bottom: 20px;
+}
+.process-subcontent{
+    font-size: 14px;
+line-height: 20px;
+@include regular();
+color: #000000;
+}
+.migrate-content{
+    font-size: 14px;
+line-height: 20px;
+@include regular();
+color: #000000;
+margin-top: 35px;
+margin-bottom: 25px;
+}
+.four-caimmg-head{
+    font-family: "murecho-semibold";
+    font-weight: 600;
+    font-size: 14px;
+    color: #002060;
+     margin-top: 25px;
+}
+.whymigrate{
+    display: flex;
+    gap: 56px;
+    margin-bottom: 80px;
+}
+.dark-blue{
+    @include semi-bold();
+    font-size: 14px;
+line-height: 20px;
+color: #002060;
+}
+.elig-sub{
+    margin-bottom: 20px;
+}
+.regular-black{
+    font-size: 14px;
+line-height: 20px;
+@include regular();
+color: #000000;
+}
+.elig-cont{
+    margin-bottom: 25px;
+}
+.eligible{
+    margin-bottom: 80px;
+}

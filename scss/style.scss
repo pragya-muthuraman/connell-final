@@ -1,0 +1,31 @@
+//external
+
+@import './external/libraries';
+@import './external/variables';
+
+// internal
+
+@import './internal/base/base';
+@import './internal/base/fonts';
+@import './internal/base/mixins';
+
+@import './internal/components/footer';
+@import './internal/components/navigation';
+
+@import './internal/pages/banner';
+@import './internal/pages/eligibility';
+@import './internal/pages/ourservices';
+@import './internal/pages/apply';
+@import './internal/pages/whyconn';
+@import './internal/pages/howitworks';
+@import './internal/pages/news';
+@import './internal/pages/testimonials';
+@import './internal/pages/readyhelp';
+@import './internal/pages/studypermit';
+@import './internal/pages/immigration';
+@import './internal/pages/newsandevents';
+@import './internal/pages/news-01';
+@import './internal/pages/canada-immig';
+@import './internal/pages/canad-immg/express';
+@import './internal/pages/canad-immg/provisional';
+@import './internal/pages/canad-immg/startup';

@@ -1,0 +1,41 @@
+.medium-blue{
+    @include medium();
+    font-size: 14px;
+line-height: 20px;
+margin-bottom: 25px;
+color: #002060;
+}
+.provisional-program-sub{
+    margin-top: 15px;
+}
+.medium-black{
+    font-size: 14px;
+line-height: 20px;
+@include medium();
+color: #000000;
+}
+.options{
+    display: flex;
+    gap: 80px;
+    margin-bottom: 60px;
+}
+.express-system{
+    display: flex;
+    gap: 81px;
+    margin-bottom: 80px;
+}
+.documents-required{
+    margin-top: 25px;
+    margin-bottom: 80px;
+}
+@media screen and(max-width:550px) {
+    .options{
+        flex-wrap: wrap;
+    }
+    .express-system{
+        flex-wrap: wrap;
+    }
+}
+.family-new_left{
+    margin-top: 80px;
+}

@@ -1,0 +1,112 @@
+.banner-img {
+    position: relative;
+  }
+  
+  .banner_content {
+    position: absolute;
+    top: 37%;
+    @include extralight();
+    font-size: 64px;
+    color: white;
+    line-height: 76.8px;
+  }
+  @media screen and(max-width:1024px) {
+    .banner_content{
+      font-size: 40px;
+    }
+  }
+  @media screen and(max-width:600px) {
+    .banner_content{
+      font-size: 32px;
+      line-height: 50px;
+    }
+  }
+  .banner_content span {
+    @include medium();
+  }
+  .banner-img img{
+      width: 100%;
+  }
+  @media screen and(max-width:500px) {
+      .banner-img img{
+          width: auto;
+      }
+  }
+  .four_steps{
+    display: flex;
+    gap: 89px;
+  }
+  .choose-connell p{
+    @include light();
+    color: #002060;
+    font-size: 16px;
+  }
+  .get-started__banner-p{
+    @include light();
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    top: 62%;
+    margin-left: 37px;
+  }
+  .banner__get-icon{
+    width: 24px!important;
+    height: 24px;
+    position: absolute;
+    top: 63%;
+  }
+.mySlides{
+    display:none;
+}
+.new-banner-content{
+  top: 46%!important;
+}
+.banner__button{
+  padding: 10px 29px;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  @include regular();
+  position: absolute;
+  top: 72%;
+  font-size: 14px;
+  border-radius: 0px!important;
+}
+.banner__button:hover, .banner__button:active, .banner__button:focus{
+  color: white!important;
+  border-color: white!important;
+  background-color: transparent;
+}
+@media screen and(max-width:650px) {
+  .banner__button{
+    top: 62%;
+  }
+}
+@media screen and(min-width:1800px) {
+ .banner__get-icon{
+   top: 55%;
+ }
+ .get-started__banner-p{
+  top: 55%;
+ }
+ .low-op-logo{
+   margin-left: 84%!important;
+ }
+ .wci-border{
+   width: 205px!important;
+   margin-left: -93px!important;
+ }
+}
+.get-started__banner:hover{
+  cursor: pointer;
+  .get-started__banner-p{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    cursor: pointer;
+  }
+}
+.close{
+  background-color: transparent;
+  border: unset;
+  text-align: right;
+}

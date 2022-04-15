@@ -1,0 +1,139 @@
+.our-services{
+    margin-top: 360px;
+}
+.heading{
+    @include light();
+    font-size: 36px;
+    color: #002060;
+}
+.para-f-heading{
+    max-width: 400px;
+    @include light();
+    color: black;
+    font-size: 18px;
+    margin-top: 18px;
+    margin-bottom: 35px;
+}
+.service-cards{
+    display: flex;
+}
+.card-service{
+position: relative;
+width: 373px;
+height: 437px;
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.card-heading{
+    position: absolute;
+    color: #002060;
+    top: 31px;
+    left: 30px;
+}
+.card-heading h4{
+    @include light();
+    font-size: 24px;
+    margin-top: 190px;
+}
+.card-heading p{
+    @include regular();
+    font-size: 16px;
+    max-width: 304px;
+    margin-top: 10px;
+   color: #002060;
+}
+.card-no{
+    position: absolute;
+    top: 8%;
+    left: 30px;
+    @include extralight();
+    font-size: 36px;
+    color: #002060;
+}
+.vector-services{
+    position: absolute;
+    top: 8%;
+    left: 84%;
+    @include extralight();
+    font-size: 36px;
+    color: #002060;
+    display: none;
+}
+.card-heading img{
+    margin-top: 45px;
+}
+.card-service:hover{
+    .card-no{
+       color: white;
+    }
+    .card-heading p{
+        color: white;
+    }
+    .card-heading h4{
+        color: white;
+    }
+    .vector-services{
+        display: block;
+    }
+}
+.card-service img{
+    filter: brightness(0.4);
+}
+.card-service{
+    background-color:white;
+}
+.card-service:hover{
+    background-color: #002060;
+    .card-img{
+        opacity: 0.3;
+    }
+}
+@media screen and(max-width:1024px) {
+    .card-heading p{
+        margin-top: 11px;
+    }
+    .card-no{
+        top: 11%;
+    }
+}
+@media screen and(max-width:769px) {
+    .service-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .heading{
+        text-align: center;
+    }
+    .para-f-heading{
+        text-align: center;
+        max-inline-size: -webkit-fill-available;
+    }
+}
+.our-services{
+    margin-bottom: 129px;
+}
+.yellow-arrow_services{
+    display: none;
+}
+.card-service:hover{
+    .yellow-arrow_services{
+        display: block;
+    }
+    .blue-arrow_services{
+        display: none;
+    }
+    .service-line{
+        border: 0.5px solid #FFCE1B;
+    }
+}
+.service-line{
+    border: 0.5px solid #002060;
+    width: 100px;
+    margin-top: 18px;
+    margin-left: -30px;
+}
+.card-heading img{
+    filter: brightness(1)!important;
+}
+.vector-services img{
+    filter: brightness(1)!important;
+}

@@ -1,0 +1,81 @@
+.readyto-help{
+    background-color: #F9F9F9;
+}
+@media screen and(max-width:769px) {
+    .readyto-help{
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+}
+.help-you h1{
+    @include light();
+    font-size: 36px;
+    color: black;
+    margin-top: 73px;
+    margin-bottom: 25px;
+}
+@media screen and(max-width:769px) {
+    .help-you h1{
+        margin-top: -10px
+    }
+}
+.help-you h1 span{
+    @include medium();
+    color: #002060;
+}
+.help-you p{
+    font-size: 14px;
+    @include regular();
+    color: black;
+    margin-bottom: 44px;
+    max-width: 358px;
+}
+.callus-btn{
+    padding: 10px 29px;
+    background-color: white;
+    color: #002060;
+    @include regular();
+}
+@media screen and(max-width:768px) {
+    .readyhelp-img{
+        text-align: center;
+    }
+    .help-you{
+        text-align: center;
+    }
+    .readyhelp-img{
+        display: none;
+    }
+}
+.ready-help-you{
+    margin-top: 90px;
+    margin-bottom: 120px;
+}
+@media screen and(max-width:600px) {
+    .ready-help-you{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+@media screen and(max-width:1024px) {
+    .logo-help_you{
+        display: none;
+            }
+}
+@media screen and(max-width:450px) {
+    .readyhelp-img img{
+        width: 312px;
+    }
+}
+.started__logo{
+    width: 175px;
+    margin-top: 35px;
+}
+
+
+// pr card
+.Register-and-apply:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}

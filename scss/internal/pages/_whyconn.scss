@@ -1,0 +1,149 @@
+
+.whycon-bg_img{
+    width: 100%;
+}
+@media screen and(max-width:769px) {
+    .whycon-bg_img{
+        height: 581px;
+    }
+}
+.why-con-bg{
+    position: relative;
+}
+.whycon-content h1{
+    @include extralight();
+    font-size: 36px;
+    color: white;
+    margin-top: -154px;
+    margin-bottom: 45px;
+}
+.resp-whycon-content h1{
+    @include extralight();
+    font-size: 36px;
+    color: white;
+    margin-top: -164px
+}
+@media screen and(max-width:769px) {
+    // .whycon-content h1{
+    //     margin-top: -128px
+    // }
+    .wci-logo{
+        margin-top:30px;
+        margin-bottom: 30px;
+    }
+}
+@media screen and(max-width:1024px) {
+    .whycon-content h1{
+        font-size: 23px;
+        margin-top:-190px;
+    }
+    .wci-border{
+        margin-bottom: 23px;
+    }
+    .whycon-list{
+        font-size: 11px;
+    }
+}
+.whycon-content h1 span{
+    @include medium();
+}
+.resp-whycon-content h1 span{
+    @include medium();
+}
+.whycon-content{
+    position: absolute;
+    top: 0%;
+}
+.whycon-content{
+    height: 100%;
+    width: 429px;
+    background-color: #002060;
+    padding-left: 50px;
+}
+.resp-whycon-content{
+    height: 100%;
+    width: auto;
+    background-color: #002060;
+    padding-left: 50px;
+    padding-bottom: 57px;
+}
+.wci-border{
+    border: 0.1px solid #FFCE1B;
+    width: 150px;
+    background-color: #FFCE1B;
+    margin-top: 42.5px;
+    margin-bottom: 35px;
+    margin-left: -47px;
+}
+.resp-whycon-content p{
+    font-size: 12px;
+    @include regular();
+    color: white;
+    width: 256px;
+}
+.low-op-logo{
+    margin-left: 77%;
+}
+.low-op-logo-resp{
+    margin-left: 75%;
+}
+@media screen and(max-width:390px) {
+    .low-op-logo-resp{
+        margin-left: 71%;
+    }
+}
+.wci-logo{
+    margin-top: 35px;
+}
+.resp-why-immig{
+    display: none;
+}
+@media screen and(max-width:500px) {
+    .resp-why-immig{
+        display: block;
+        margin-top: 102px;
+    }
+}
+@media screen and(max-width:500px){
+    .why-connell-immigration{
+        display: none;
+    }
+}
+.wci-logo:hover{
+    filter:invert(50%) sepia(144%) saturate(1763%) hue-rotate(339deg) brightness(163%) contrast(100%);
+}
+.backgrnd-logo{
+    position: absolute;
+    left: 0;
+    top: -61%;
+    z-index: -1;
+}
+
+@media screen and(min-width:2000px) {
+    .whycon-content{
+        width: 632px;
+        padding-left: 98px;
+    }
+    .para1{
+        font-size: 1vw;
+        width: 384px;
+        margin-top: 74px;
+    }
+    .whycon-content h1{
+        margin-top: 45px;
+    }
+    .backgrnd-logo{
+        top: -36%;
+        z-index: -1;
+    }
+    .wci-logo {
+        margin-top: 80px;
+    }
+}
+.whycon-list{
+    font-size: 16px;
+    @include regular();
+    color: white;
+    margin-bottom: 15px;
+    list-style-type: none;
+}

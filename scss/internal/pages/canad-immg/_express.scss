@@ -1,0 +1,91 @@
+.eduqa img{
+    width: 306px;
+    margin-bottom: 25px;
+}
+.settle-sub{
+    text-align: left;
+}
+.first-pointer-express{
+    margin-top: 25px;
+}
+.express-entry-content{
+    margin-bottom: 80px;
+}
+.express_eligibility{
+    gap: 71px;
+    margin-bottom: 80px;
+}
+.benefits-row{
+    display: flex;
+    margin-bottom: 20px;
+}
+.benefits h3{
+    font-size: 48px;
+line-height: 70px;
+@include extralight();
+color: #002060;
+margin-bottom: 15px;
+}
+.benefits p{
+    font-size: 14px;
+line-height: 20px;
+@include regular();
+color: #000000;
+}
+.benefits-number{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+.benefits{
+    margin-bottom: 80px;
+}
+.entry-line{
+    margin-bottom: 71px!important;
+}
+.entry-head{
+    max-width: 154px;
+}
+.points-head{
+    margin-bottom: 25px;
+}
+.points-calc{
+    margin-bottom: 30px;
+}
+.regular-font{
+    font-size: 14px;
+line-height: 20px;
+@include regular();
+color: #000000;
+}
+.complete-application{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.application-para{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.secnd-appl{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.help-rect{
+    // margin-top: 80px;
+}
+@media screen and(max-width:500px) {
+    .row-elig{
+flex-wrap: wrap;
+    } 
+    .express_eligibility{
+        flex-wrap: wrap;
+    }
+    .benefits-number{
+        flex-wrap: wrap;
+    }
+}
+.benefits-number h3{
+    @include extralight();
+    font-size: 48px;
+    margin-bottom: 20px;
+}
