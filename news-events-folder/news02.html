@@ -16,26 +16,115 @@
 
 <body>
     <main>
-      <section class="primary-navbar">
-        <div class="container">
-          <div class="connell-navbar-one">
-            <div class="contact">
-            </div>
-            <div class="user-connell">
-              <a href="#" class="utility" >Contact Us</a>
-              <a href="#">Register | Login</a>
-              <div class="contact">
-                <div class="contact-phone">
-                  <img class="utility-call" src="./../images/banner/call-icon.svg" />
-                  <p class="utility">+91 44 4202 9936</p>
+     <!-- primary navbar -->
+     <section class="primary-navbar">
+      <div class="container">
+        <div class="connell-navbar-one">
+          <div class="contact">
+          </div>
+          <div class="user-connell">
+            <a href="#" class="utility btn btn-primary contact-btn" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop">Contact Us</a>
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog primary-dialog">
+                <div class="modal-content primary-contact">
+                  <div class="close-for-modal">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img
+                      src="./../images/contactus_page/close-contact-us.svg"></button>
+                   </div>
+                  <div class="modal-body">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <img class="low-opac__contactus" src="./../images/contactus_page/contact-us_opac 1x (1).png">
+                      </div>
+                      <div class="col-lg-8 contactus-right">
+                        <p class="contact-us__content">Speak to our Consultant</p>
+                        <div class="double-phone">
+                          <div class="contact-phone">
+                            <img src="./../images/contactus_page/phone-contact-us.svg" />
+                            <p>+91 44 4202 9936</p>
+                          </div>
+                          <div class="contact-phone">
+                            <img src="./../images/contactus_page/phone-contact-us.svg" />
+                            <p>+91 44 4202 9936</p>
+                          </div>
+                        </div>
+                        <div class="double-mail__social">
+                          <div class="mail-contact__us">
+                            <p class="contact-us__content">Email</p>
+                            <div class="contact-phone mail-contact">
+                              <img src="./../images/contactus_page/mail-contact-us.svg" />
+                              <p>contact@connell.in</p>
+                            </div>
+                          </div>
+                          <div class="social-media__contactus">
+                            <p class="contact-us__content">Social Media</p>
+                            <div class="social-icons">
+                              <a href="https://www.facebook.com/RVMatrix/" target="blank"><img
+                                  class="foot-icon icon-two" src="./../images/banner/facebook-icon.svg"></a>
+                              <a href="https://instagram.com/rvmatrix_global?utm_medium=copy_link" target="blank"><img
+                                  class="foot-icon icon-two" src="./../images/banner/instagram-icon.svg"></a>
+                              <a href="https://www.linkedin.com/company/rvmatrix" target="blank"><img
+                                  class="foot-icon icon-two" src="./../images/banner/linkedin-icon.svg"></a>
+                              <a href="#"><img class="foot-icon icon-two" src="./../images/banner/twitter-icon.svg"></a>
+                            </div>
+                          </div>
+                        </div>
+                        <p class="contact-us__content">Address</p>
+                        <div class="contact-phone mb-5">
+                          <img src="./../images/contactus_page/location-contact-us.svg" />
+                          <p>S1 & S2, 2nd Floor, B Block, AmeenManors,<br>
+                            No.138,NungambakkamHigh Rd,<br>
+                            Chennai - 600034<br>
+                            Tamil Nadu, India.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+            </div>
+            <a href="#" class="utility btn contact-btn" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop-six">Register | Login</a>
+                          <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop-six" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog primary-dialog">
+              <div class="modal-content primary-contact">
+                <div class="close-for-modal">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><img
+                    src="./../images/contactus_page/close-contact-us.svg"></button>
+                 </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <img class="low-opac__contactus" src="./../images/contactus_page/contact-us_opac 1x (1).png">
+                    </div>
+                    <div class="col-lg-8 eligibility-construction">
+                      <p>Eligibility calculation under construction</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="contact">
+              <div class="contact-phone">
+                <img class="utility-call" src="./../images/banner/call-icon.svg" />
+                <p class="utility">+91 8220812345</p>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+    </section>
         <section class="logo">
             <div class="container">
-                <a class="navbar-brand" href="#"><img src="./../images/banner/connoll-final-logo.svg" alt="logo"></a>
+              <div class="news-heading__top d-flex">
+                <a href="#"><img src="./../images/banner/connoll-final-logo.svg" alt="logo"></a>
+                <h1>News & Events</h1>
+              </div>
             </div>
         </section>
         <section class="news01">

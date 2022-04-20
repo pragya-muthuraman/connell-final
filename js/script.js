@@ -114,13 +114,13 @@ var swiper = new Swiper(".mySwiper", {
 //change logo on scroll function
 $(function () { 
   $(window).scroll(function () {
-      if ($(this).scrollTop() < 50) { 
+      if ($(this).scrollTop() < 5) { 
           $('.navbar .navbar-brand img').attr('src','./images/banner/connoll-final-logo.svg');
           $(".fixed-top").css("background" , "transparent");
           $(".fixed-top").css("top" , "100px");
           $(".navbar-custom").css("height" , "29px");
       }
-      if ($(this).scrollTop() > 50) { 
+      if ($(this).scrollTop() > 5) { 
           $('.navbar .navbar-brand img').attr('src','./images/banner/onscroll-logo.svg');
           $(".fixed-top").css("background" , "#002060");
           $(".fixed-top").css("top" , "0px");

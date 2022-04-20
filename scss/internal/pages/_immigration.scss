@@ -1,6 +1,6 @@
 .overseas{
     display: flex;
-    gap: 42px;
+    gap: 55px;
     margin-bottom: 80px;
 }
 @media screen and(max-width:500px) {
@@ -24,4 +24,7 @@
 }
 .get-evaluated{
     margin-bottom: 80px;
+}
+.process-links a:hover{
+color: #ffce1b;
 }

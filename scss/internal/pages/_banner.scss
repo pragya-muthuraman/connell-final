@@ -47,7 +47,7 @@
     color: white;
     position: absolute;
     top: 62%;
-    margin-left: 37px;
+    margin-left: 20px;
   }
   .banner__get-icon{
     width: 24px!important;
@@ -109,4 +109,34 @@
   background-color: transparent;
   border: unset;
   text-align: right;
+}
+.banner-subheading{
+  position: absolute;
+  top: 54%;
+  @include extralight();
+  font-size: 18px;
+  color: white;
+  max-width: 300px;
+}
+.banner-subheading-two{
+  position: absolute;
+  top: 62%;
+  @include extralight();
+  font-size: 18px;
+  color: white;
+  max-width: 300px;
+}
+@media screen and(max-width:600px) {
+  .banner-subheading{
+    top: 46%;
+  }
+  .navbar{
+    top: 52px;
+  }
+}
+.calculate-btn:hover{
+  color: white;
+}
+.choose-connell_img{
+  margin-bottom: 10px;
 }

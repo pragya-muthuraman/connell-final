@@ -107,6 +107,9 @@
 .small-line__two{
     width:52px!important;
 }
+.small-line__three{
+    width: 30px!important;
+}
 @media screen and(max-width:600px) {
     .apply-steps{
         margin-left: 0px;
@@ -117,4 +120,17 @@
 }
 .button-for__check{
     margin-left: 45px;
+}
+.small-line__four{
+    width: 18px!important;
+}
+.small-line__five{
+    width: 12px!important;
+}
+@media screen and(max-width:500px) {
+    .apply-box p{
+        font-size: 26px;
+        padding-top: 50px;
+        padding-bottom: 55px;
+    }
 }

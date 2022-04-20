@@ -125,7 +125,7 @@
   .fixed {
     position: fixed;
     bottom: 0;
-    right: 0;
+    left: 0;
     width: 200px;
   }
  
@@ -174,7 +174,7 @@ margin-bottom: 20px;
       @include semi-bold();
       font-size: 18px;
       padding-right: 18px;
-      max-width: 130px;
+      max-width: 145px;
   }
   .yellow-line_rect{
       border: 1px solid #FFCE1B;
@@ -198,7 +198,7 @@ margin-bottom: 20px;
   }
   .row-elig{
       display: flex;
-      gap: 45px;
+      gap: 22px;
       flex-wrap: wrap;
       margin-bottom: 80px;
   }
@@ -264,13 +264,14 @@ margin-bottom: 20px;
   }
   .post-col_contnt{
       display: flex;
+      max-width: 204px;
   }
   .pointer-post{
       width: 32px!important;
   }
   .rowcost{
       display: flex;
-      gap:53px ;
+      gap:102px ;
       margin-bottom: 80px;
   }
   .yellow_cost{
@@ -545,26 +546,15 @@ Register-and-apply-fixed{
     border-radius: 0;
     width: 342px;
 }
-.btn{
-    // color: white;
-    // background-color: #002060;
-    
-}
 .graduate-columns{
     display: flex;
 }
-// .btn-primary:hover {
-//     color: #002060;
-//     background-color: transparent;
-//     border-color: white;
-// }
-
 .btn-5:hover{
     @include bold();
     color: white;
 }
 .btn-5{
-    width: 201px;
+    width: 425px;
     color: #FFFFFF;
     background-color: #002060;
 }
@@ -625,4 +615,19 @@ max-width: 500px;
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
+}
+.overseas-two{
+    gap: 2px!important;
+}
+.rowsp__two{
+    gap: 25px;
+}
+.two-sp__two{
+    margin-right: 22px!important;
+}
+.post-col_contnt-two{
+    margin-left: -20px;
+}
+.close-for-modal{
+    text-align: end;
 }

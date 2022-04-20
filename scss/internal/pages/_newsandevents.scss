@@ -95,3 +95,24 @@ max-width: 173px;
 .news{
     margin-bottom:120px;
 }
+.news-heading__top{
+    gap: 234px;
+}
+.news-heading__top h1{
+    font-size: 64px;
+@include extralight();
+color: #001F60;
+padding-top: 33px;
+}
+@media screen and(max-width:500px) {
+    .news-heading__top{
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+    .news01{
+        margin-top: -65px;
+    }
+    .news-heading__top h1{
+        font-size: 49px;
+    }
+}

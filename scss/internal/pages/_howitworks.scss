@@ -47,7 +47,7 @@ color: #002060;
     margin-left: 157px;
 }
 .yellow-line{
-    border: 1px solid #002060;
+    border: 0.1px solid #002060;
     width:100px;
     margin-top:18px;
     margin-left: -19px;
@@ -55,7 +55,7 @@ color: #002060;
 }
 .works-card:hover{
     .yellow-line{
-        border: 1px solid #FFCE1B;
+        border: 0.1px solid #FFCE1B;
         background-color: #FFCE1B;
         transition:0.8s;
     }

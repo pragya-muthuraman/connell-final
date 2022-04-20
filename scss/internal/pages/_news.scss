@@ -88,7 +88,7 @@
     }
     .news-wrapper{
         height: 495px;
-        left: 325px;
+        left: 330px;
     }
     @media screen and(max-width:1024px) {
         .news-content{
@@ -179,7 +179,7 @@
         width: 323px;
       }
       .news-wrapper{
-        left: 494px;
+        left: 851px;
       }
       .swiper-button-next1{
         left:784px;
@@ -222,3 +222,23 @@
   .help-button-check{
     margin-top: 15px!important;
   }
+  .countries-heading-two::before{
+    content: url('./../../../images/list.png');
+    margin-top: -5px;
+    margin-right: 5px;
+   
+  }
+  .countries-heading::before{
+    content: url('./../../../images/list.png');
+    margin-top: -5px;
+    margin-right: 5px;
+   
+  }
+  .pointers__line{
+    margin: 0 0 0 22px;
+    background: linear-gradient(to right, #000000, #000) 0 10px/12px 2px no-repeat;
+  }
+  .pointer-line__content{
+    margin-left: 20px;
+  }
+  
